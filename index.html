@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="./static/css/index.css?v=20260502-sections">
+  <link rel="stylesheet" href="./static/css/index.css?v=20260502-metrics">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
   <script src="./static/js/bulma-carousel.min.js"></script>
@@ -113,7 +113,7 @@
       <div class="metric-grid">
         <div class="metric-item">
           <span class="metric-value">CDF</span>
-          <span class="metric-label">continuous quad layout representation</span>
+          <span class="metric-label">easy-to-learn continuous field representation for quad layouts</span>
         </div>
         <div class="metric-item">
           <span class="metric-value">230k</span>
@@ -384,7 +384,7 @@
           We recover original quad topology from public 3D repositories such as Objaverse and combine it with outputs from existing remeshing tools.
         </p>
         <p>
-          Loop simplicity filters these candidates into a <strong>large-scale, diverse 230k-shape dataset</strong>, giving <span class="brand-highlight">SQuadGen</span> a generative topology prior over coherent, editable quad layouts.
+          Loop simplicity filters these candidates into a <strong>large-scale, diverse 230k-shape simple quad layout dataset</strong>, giving <span class="brand-highlight">SQuadGen</span> a generative topology prior over coherent, editable quad layouts.
         </p>
       </div>
 
@@ -423,7 +423,7 @@
 
         <div class="content publication-body result-comments">
           <p>
-            The comparison spans Part1k, ABC1k, and Model300 examples. From left to right, each row shows the input triangle mesh, outputs from QuadWild, QuadriFlow, QuadRemesher, FSCP, and the <span class="brand-highlight">SQuadGen</span> result with its synthesized CDF.
+            The comparison spans Part1k, ABC1k, and Model300 examples. From left to right, each row shows the input triangle mesh, outputs from <em>QuadWild</em>, <em>QuadriFlow</em>, <em>QuadRemesher</em>, <em>FSCP</em>, and the <span class="brand-highlight">SQuadGen</span> result with its synthesized CDF.
           </p>
           <p>
             Across Part1k, ABC1k, and Model300, <span class="brand-highlight">SQuadGen</span> yields simpler loop structures and lower chart complexity while preserving major sharp features.
