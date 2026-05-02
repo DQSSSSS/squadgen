@@ -6,6 +6,7 @@
   <meta name="keywords" content="SQuadGen, quad mesh, quad layout, remeshing, retopology, Chart Distance Fields, CDF, diffusion model">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SQuadGen: Generating Simple Quad Layouts via Chart Distance Fields</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="./static/images/favicon.png">
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
   <link rel="stylesheet" href="./static/css/bulma.min.css">
@@ -350,7 +351,7 @@
 
       <div class="content publication-body dataset-copy">
         <p>
-          We recover original quad topology from public 3D repositories such as Objaverse, and combine it with outputs from existing remeshing tools.
+          We recover original quad topology from public 3D repositories such as Objaverse and combine it with outputs from existing remeshing tools.
         </p>
         <p>
           Loop simplicity filters these candidates into a <strong>large-scale, diverse 230k-shape dataset</strong>, giving <span class="brand-highlight">SQuadGen</span> a generative topology prior over coherent, editable quad layouts.
@@ -395,7 +396,7 @@
             The comparison spans Part1k, ABC1k, and Model300 examples. From left to right, each row shows the input triangle mesh, outputs from QuadWild, QuadriFlow, QuadRemesher, FSCP, and the <span class="brand-highlight">SQuadGen</span> result with its synthesized CDF.
           </p>
           <p>
-            Across these benchmarks, <span class="brand-highlight">SQuadGen</span> produces layouts with simpler loops and lower chart complexity while preserving major sharp features, making the results more suitable for editing than the often more complex layouts from existing methods.
+            Across Part1k, ABC1k, and Model300, <span class="brand-highlight">SQuadGen</span> yields simpler loop structures and lower chart complexity while preserving major sharp features.
           </p>
         </div>
 
