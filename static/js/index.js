@@ -34,7 +34,7 @@ $(document).ready(function() {
     $lightboxImage.attr('src', '').attr('alt', '');
   }
 
-  $('#ideas .idea-figure img, .method-figure img, .why-loop-figure img, .detail-figure img, .result-figure img, .case-study-figure img').on('click', function() {
+  $('#ideas .idea-figure img, .cdf-figure img, .method-figure img, .why-loop-figure img, .detail-figure img, .result-figure img, .case-study-figure img').on('click', function() {
     $lightboxImage.attr('src', $(this).attr('src')).attr('alt', $(this).attr('alt') || 'Expanded figure preview');
     $lightbox.addClass('is-active').attr('aria-hidden', 'false');
   });

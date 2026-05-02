@@ -49,6 +49,7 @@
       <div class="navbar-end">
         <a class="navbar-item" href="#abstract">Abstract</a>
         <a class="navbar-item" href="#ideas">Key Ideas</a>
+        <a class="navbar-item" href="#cdf">CDF</a>
         <a class="navbar-item" href="#method">Method</a>
         <a class="navbar-item" href="#results">Results</a>
         <a class="navbar-item" href="#bibtex">BibTeX</a>
@@ -237,7 +238,36 @@
     </div>
   </section>
 
-  <section class="section soft-section" id="method">
+  <section class="section soft-section" id="cdf">
+    <div class="container is-max-widescreen">
+      <div class="section-heading has-text-centered">
+        <p class="eyebrow">Chart Distance Field</p>
+        <h2 class="title is-3">An easy-to-learn continuous field representation for quad topology</h2>
+      </div>
+
+      <figure class="cdf-figure cdf-definition-figure">
+        <img src="./static/images/cdf_defination.png" alt="Definition of Chart Distance Field and Dual Chart Distance Field from a quad layout chart">
+        <figcaption>
+          Definition of CDF and DCDF from local coordinates on a quad layout chart.
+        </figcaption>
+      </figure>
+
+      <div class="cdf-main-copy">
+        <p>
+          CDF preserves chart centers, boundaries, and flow structure as an <strong>easy-to-learn continuous field</strong>, turning discrete topology generation into a <strong>learnable field synthesis problem</strong>.
+        </p>
+      </div>
+
+      <div class="cdf-compare-card">
+        <h3>Compared with frame fields</h3>
+        <p>
+          Frame-field pipelines usually predict local directions and rely on integer programming to reconstruct the final quad mesh, which can miss the original layout and produce locally plausible layouts with spiral loops. CDF directly represents layout structure, giving the model a global signal for simple, editable loops.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="method">
     <div class="container is-max-widescreen">
       <div class="section-heading has-text-centered">
         <p class="eyebrow">Method</p>
